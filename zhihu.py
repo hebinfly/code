@@ -22,8 +22,8 @@ def process_zhihu(collection_id, only_title_link=True, from_page=None, to_page=N
     to_page: 结束页码 (整数，可选)
     """
     # 配置信息
-    ZHIHU_USERNAME = "18701013318"
-    ZHIHU_PASSWORD = "nba@123A"
+    ZHIHU_USERNAME = ""
+    ZHIHU_PASSWORD = ""
     BASE_URL = f"https://www.zhihu.com/collection/{collection_id}"
     
     # 创建输出文件名
